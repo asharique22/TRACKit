@@ -1,68 +1,21 @@
 # Change Log
 
-## [v1.0.4] 2023-06-25
-### Changes
-
-- STABLE Version
-- Regenerate Codebase
-  - [React App Generator](https://appseed.us/generator/react/) - free tool 
-
-## [v1.0.3] 2022-11-13
+## [1.0.2] 2022-11-20
 ### Improvements
 
-- Added `deployer` file
-  - Used by AppSeed [Go-LIVE](https://appseed.us/go-live/) service
+- Build the project using the [App Generator](https://appseed.us/generator/react/)
+  - Timestamp `2022-11-20 06:43`
+- Go LIVE using the [LIVE Deployer](https://appseed.us/go-live/)
+  - [Drag & Drop](https://www.youtube.com/watch?v=gwWfahWPt2A) Deployment Service 
 
-## [v1.0.2] 2022-11-08
+## [1.0.1] 2022-01-28
 ### Improvements
 
-- Save Compat matrix in `package.json`
-  - `build` node
-  - Yarn, NPM
-  - NodeJS versions
+- Minor changes (Flask API & React)
 
-## [1.0.1] 2022-11-05
-### Improvements
+## [1.0.0] 2021-11-18
+### Initial Release
 
-- Added `env.sample`
-- `API_URL` can be specified in `env` (optional)
-  - data used in `src/config.js`  
-
-## [1.0.0] 2022-11-05
-### Improvements
-
-- `Update DOCS` (README)
-- Added `compatibility matrix` for Node, yarn & NPM
-  - Testing tool: [Render API Wrapper](https://github.com/app-generator/deploy-automation-render)
-
-## [0.0.5] 2021-07-09
-### Added Docker Support
-
-- Usage documented in the README - new files:
-    - Dokerfile
-    - docker-compose.yml
-
-## [0.0.4] 2021-07-09
-### Minor Update
-
-- Code & Links cleanUp
-
-## [0.0.3] 2021-07-08
-### Improvements
-
-- Isolate API URL in config. Impacted files:
-    - `src/config.js`
-    - `src/layout/.../ProfileSection/index.js`
-    - `src/views/pages/auth/.../RestLogin.js`
-    - `src/views/pages/auth/.../RestRegister.js`
-
-## [0.0.2] 2021-07-08
-### Added JWT Authentication
-
-- JWT Auth: login/register/logout
-
-## [0.0.1] 2021-07-01
-### Initial import
-
-- UI: Berry v1.3.0 (free version)
+- UI: [Soft UI Dashboard React](https://github.com/app-generator/react-soft-ui-dashboard) **v2.0.5**    
+- Backend Version: [Flask API Server](https://github.com/app-generator/api-server-flask) **v1.0.1**
 

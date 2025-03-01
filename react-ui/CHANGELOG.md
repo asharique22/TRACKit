@@ -1,6 +1,11 @@
 # Change Log
 
-## [v1.0.2] 2022-11-08
+## [v2.0.8] 2022-11-09
+### Improvements
+
+- Fixes for LIVE deployment on RENDER
+
+## [v2.0.7] 2022-11-08
 ### Improvements
 
 - Save Compat matrix in `package.json`
@@ -8,48 +13,51 @@
   - Yarn, NPM
   - NodeJS versions
 
-## [1.0.1] 2022-11-05
+## [2.0.6] 2022-11-05
 ### Improvements
 
 - Added `env.sample`
 - `API_URL` can be specified in `env` (optional)
   - data used in `src/config.js`  
-
-## [1.0.0] 2022-11-05
-### Improvements
-
-- `Update DOCS` (README)
 - Added `compatibility matrix` for Node, yarn & NPM
   - Testing tool: [Render API Wrapper](https://github.com/app-generator/deploy-automation-render)
 
-## [0.0.5] 2021-07-09
-### Added Docker Support
-
-- Usage documented in the README - new files:
-    - Dokerfile
-    - docker-compose.yml
-
-## [0.0.4] 2021-07-09
-### Minor Update
-
-- Code & Links cleanUp
-
-## [0.0.3] 2021-07-08
+## [2.0.5] 2021-11-16
 ### Improvements
 
-- Isolate API URL in config. Impacted files:
-    - `src/config.js`
-    - `src/layout/.../ProfileSection/index.js`
-    - `src/views/pages/auth/.../RestLogin.js`
-    - `src/views/pages/auth/.../RestRegister.js`
+- Added Docker Support
+- Fixes:
+  - Logout over Flask API Server
 
-## [0.0.2] 2021-07-08
-### Added JWT Authentication
+## [2.0.4] 2021-10-11
+### Improvements
 
-- JWT Auth: login/register/logout
+- Patch #5 (enhancement) - Logout Link - Move from top-left menu to sidebar
+- Update Links (different sections)
 
-## [0.0.1] 2021-07-01
-### Initial import
+## [2.0.3] 2021-10-09
+### Improvements
 
-- UI: Berry v1.3.0 (free version)
+- Added Usable JWT Authentication Flow
+  - Login/Logout/Register
+- Added `Docker` target in `package.json`
+  - `yarn docker`
 
+## [2.0.2] 2021-10-08
+### Improvements
+
+- Added Docker Support
+
+## [2.0.1] 2021-10-08
+### Fixes:
+
+- #1 - Compilation Error (Windows Env): Delete 'cr' [prettier/prettier]
+- #2 - Compilation Error (Windows Env): 'React' must be in scope when using JSX
+
+## [2.0.0] 2021-10-08
+### Initial Import
+
+- Soft UI Dashboard React: v2.0.0
+- Migration from Material-UI v4 to Material-UI v5.
+- Customizing Autocomplete component based on the Soft Design.
+- Customizing the TextField component based on the Soft Design.
